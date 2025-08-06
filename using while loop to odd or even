@@ -1,0 +1,23 @@
+package com.java;
+import java.util.Scanner;
+public class df{
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        
+        int a=scan.nextInt();
+        int sum=0;
+        int i=0;
+        while(i<=a){
+            if(1%2==1){
+                sum=sum+i;
+            }
+            i++;
+        }
+        if(sum%2==0){
+            System.out.println("even");
+        }
+        else{
+        System.out.println("odd");
+            }
+        }
+}
