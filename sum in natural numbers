@@ -1,0 +1,18 @@
+package com.java;
+import java.util.Scanner;
+public class df{
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        
+        int a=scan.nextInt();
+        int sum=0;
+        for(int i=0;i<=a;i++)
+        {
+            if(1%2==1){
+                sum=sum+i;
+            }
+        }
+        System.out.println(sum);
+            }
+        }
+    
