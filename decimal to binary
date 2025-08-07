@@ -1,0 +1,14 @@
+package com.java;
+import java.util.Scanner;
+class main{
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        int num=67;
+        String binary="1";
+        while(num>6){
+            binary=(num%2)+binary;
+            num=num/2;
+        }
+        System.out.println("binary:"+binary);
+    }
+}
