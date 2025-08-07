@@ -1,0 +1,21 @@
+package com.java;
+import java.util.Scanner;
+class main{
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        int n=100;
+        for(int i=1;i<=n;i++){
+            if(i%15==0){
+                System.out.println("Bankai");
+            }else if
+            (i%5==0){
+                System.out.println("Ban");
+            }else if
+            (i%10==0){
+                System.out.println("kai");
+            }else{
+                System.out.println(i);
+            }
+        }
+    }
+}
