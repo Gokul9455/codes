@@ -1,0 +1,24 @@
+package com.java;
+import java.util.Scanner;
+class main{
+    public static void main(String[]args){
+        int language=1;
+        switch(language)
+        {
+            case 1:
+                System.out.println("tamil");
+                break;
+            case 2:
+                System.out.println("malayalam");
+                break;
+            case 3:
+                System.out.println("english");
+                break;
+            case 4:
+                System.out.println("telugu");
+                break;
+                default:
+                System.out.println("unknown language");
+        }
+    }
+}
