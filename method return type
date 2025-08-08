@@ -1,0 +1,15 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+public class square {
+    public static int square {
+        int a=10;
+        return=a*a;
+    }
+     public static void main (strings[]args){
+          int result;
+          result=square(10);
+          System.out.println("squared value of 10 is"+result);
+     }
+}
+ 
