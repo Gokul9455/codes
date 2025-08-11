@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class sample4{
+    int a=77;
+    string name="G.Gokul";
+    string fname="gurusamy";
+    string id="9455";
+    int num=7;
+    
+    public static void main(sample4 a1){
+        Scanner scan=new scan(System.in);
+        System.out.println("enter the value");
+        System.out.println("student name:"+a.name);
+        System.out.println("student fname:"+a.fname);
+        System.out.println("student idendity:"+a.id);
+        system.out.println("student number:"+a.num);
+    }
+    {
+        pass();
+        System.out.println(a.a1);
+    }
+}
