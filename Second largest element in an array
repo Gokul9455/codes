@@ -1,0 +1,24 @@
+public class SecondLargest {
+    public static void main(String[] args) {
+        int[] arr = {23, 54, 67, 54, 87, 98, 23, 1};
+
+        // Initialize largest and second largest
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+
+        for (int num : arr) {
+            if (num > largest) {
+                secondLargest = largest;  // update second largest
+                largest = num;             // update largest
+            } else if (num > secondLargest && num != largest) {
+                secondLargest = num;       // update second largest if distinct
+            }
+        }
+
+        if (secondLargest == Integer.MIN_VALUE) {
+            System.out.println("No second largest element found.");
+        } else {
+            System.out.println("Second largest element: " + secondLargest);
+        }
+    }
+}
