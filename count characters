@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class countCharacter{
+    public static intcount occurences(String str,char ch){
+        
+        int total=0;
+        for(char c : str toCharArray()){
+            if(c==ch)
+            Total++;
+            return total;
+        }
+        public static void main(String[]args){
+            System.out.println(countOcurancess("sql java css html",'a'));
+        }
+    }
+}
