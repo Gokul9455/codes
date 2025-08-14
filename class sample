@@ -1,0 +1,28 @@
+package package_2;
+import java.util.Scanner;
+
+public class Sample54{
+    Sample54(String b){
+        String a=b;
+        System.out.println(a);
+    }
+    {
+        System.out.println("hii");
+    }
+    static{
+        System.out.println("hiiiiiiiii");
+    }
+    
+    
+    {
+        System.out.println("hello");
+    }
+    public static void main(String[]args){
+        NewClass n=new NewClass();
+        Sample54 s=new Sample54("NOT SUPPORT");
+        System.out.println(n.a);
+        System.out.println(n.b);
+        
+        System.out.println(n.area());
+    }
+}
