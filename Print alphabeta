@@ -1,6 +1,6 @@
 public class sample {
     public static void main(String[] args) {
-        String input = "thiru12sri"; 
+        String input = "goku77black"; 
         String result = "";
 
         for (int i = 0; i < input.length(); i++) {
